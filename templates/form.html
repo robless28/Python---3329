@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" type="text/css" href="static/basic.css">
-    <title>This is a form demo!</title>
+    <title>This is a form!</title>
 </head>
 
 <form method="post">
     Name: <input name="name" />
     <br/>
-    <button type="submit">Submit</button>
+    <br/>
+    <button type="submit"> Submit</button>
 </form>
 <br/>
 
 <form method="post">
     Please enter your message: <input name="message"/>
     <br/>
-    <button type="submit">Submit</button>
+    <br/>
+    <button type="submit"> Submit</button>
 </form>
+<br/>
 
-<!-- more content if a name exists -->
+<body>
+    <div>
+        Thank you for submitting your name and message, truly appreciate it!!
+    </div>
+</body>
+<!-- more content if a name exists 
 {% if name %}
     <div class="content">
-        <p>Hello, {{ name }}!!</p>
+        <p>Hello, {{name}}!!</p>
     </div>
-{% endif %}
+{% endif %} -->
